@@ -36,9 +36,9 @@ namespace Exercicio137
                     }
                 }
             Console.WriteLine();
-            foreach(TaxPayer tx in list)
-                {
-                Console.WriteLine("TAX PAYED: ");
+            Console.WriteLine("TAX PAYED: ");
+            foreach (TaxPayer tx in list)
+                {              
                 Console.Write(tx);
                 }
             }
